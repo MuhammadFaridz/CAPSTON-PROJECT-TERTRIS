@@ -22,7 +22,11 @@ st.write('oleh : **Muhammad Farid**')
 
 #df = pd.read_excel("C:/Users/ASUS/Downloads/ENERGI_INDONESIA.xlsx")
 #df
+# Membaca file Excel
 df = pd.read_excel(os.path.join("app", "data", "ENERGI_INDONESIA.xlsx"))
+
+# Tampilkan dataframe
+st.dataframe(df)
 import altair as alt
 import streamlit as st
 import pandas as pd
