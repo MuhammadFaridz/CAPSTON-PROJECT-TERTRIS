@@ -16,7 +16,7 @@ st.write('sumber data : https://yearbook.enerdata.net/ ')
 st.write('https://www.linkedin.com/in/mhd-farid/')
 st.write('oleh : **Muhammad Farid**')
 
-image = Image.open('C:/Users/ASUS/Downloads/polusikota.JPG')
+image = Image.open('polusikota.JPG')
 st.image(image, caption='https://pixabay.com/id/photos/pembangkit-listrik-3431136/')
 st.write('Negara indonesia menggunakan minyak, gas dan batu bara sebagai sumber utama pembangkit listrik. hal tersebut telah menjadikan polusi udara sebagai risiko utama bagi kesehatan masyarakat dan telah meningkatkan emisi karbon dioksida (CO2) terkait energi. Menurut WHO (2020), pada tahun 2016 diperkirakan 2,4 juta kematian dini disebabkan oleh polusi uara. masalah yang dihadapi saat ini adalah Peningkatan emisi Karbon Dioksida (CO2) akibat penggunaan sumber minyak, gas dan batubara untuk pembangkit listrik. dan Menipisnya sumber daya yang langka (yaitu minyak, gas dan batu bara). bagaimana prediksi konsumsi energi kedepannya untuk indonesia? dan bagaimana solusinya?  ')
 
@@ -329,10 +329,10 @@ def add_image_frame(image):
 
 # Daftar gambar dan caption
 images = [
-    {'path': 'C:/Users/ASUS/Downloads/WhirlpoolTurbine.jfif','header': 'Whirlpool Turbine', 'caption': 'Dapat memberi daya puluhan rumah selama 24 jam dan menghasilkan 5 kwh sampai 500 kwh'},
-    {'path': 'C:/Users/ASUS/Downloads/BUNGA.jfif','header': 'Smart Flower', 'caption': 'Menggunakan sistem pelacakan matahari untuk efisiensi yang lebih tinggi'},
-    {'path': 'C:/Users/ASUS/Downloads/FloatingSolarPlant.jfif','header': 'Floating Solar Plan', 'caption': 'enggunakan air untuk mendinginkan panel'},
-    {'path': 'C:/Users/ASUS/Downloads/KineticStep.jfif','header': 'Kinetic Step', 'caption': 'Menghasilkan 7KW per langkah'}
+    {'path': 'WhirlpoolTurbine.jfif','header': 'Whirlpool Turbine', 'caption': 'Dapat memberi daya puluhan rumah selama 24 jam dan menghasilkan 5 kwh sampai 500 kwh'},
+    {'path': 'BUNGA.jfif','header': 'Smart Flower', 'caption': 'Menggunakan sistem pelacakan matahari untuk efisiensi yang lebih tinggi'},
+    {'path': 'FloatingSolarPlant.jfif','header': 'Floating Solar Plan', 'caption': 'enggunakan air untuk mendinginkan panel'},
+    {'path': 'KineticStep.jfif','header': 'Kinetic Step', 'caption': 'Menghasilkan 7KW per langkah'}
 ]
 
 # Menampilkan empat kolom gambar dengan caption
