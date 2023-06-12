@@ -8,7 +8,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy import stats
 from PIL import Image
-pip install xlrd
+
 #content-start
 st.set_page_config(layout="wide")
 st.title('FORECASTING OF ENERGY CONSUMPTION AND CO2 EMISSIONS IN INDONESIA, FOR SUSTAINABLE ENERGY DECISION MAKING')
@@ -21,9 +21,6 @@ image = Image.open("polusikota.jpg")
 st.image(image, caption='https://pixabay.com/id/photos/pembangkit-listrik-3431136/')
 st.write('Negara indonesia menggunakan minyak, gas dan batu bara sebagai sumber utama pembangkit listrik. hal tersebut telah menjadikan polusi udara sebagai risiko utama bagi kesehatan masyarakat dan telah meningkatkan emisi karbon dioksida (CO2) terkait energi. Menurut WHO (2020), pada tahun 2016 diperkirakan 2,4 juta kematian dini disebabkan oleh polusi uara. masalah yang dihadapi saat ini adalah Peningkatan emisi Karbon Dioksida (CO2) akibat penggunaan sumber minyak, gas dan batubara untuk pembangkit listrik. dan Menipisnya sumber daya yang langka (yaitu minyak, gas dan batu bara). bagaimana prediksi konsumsi energi kedepannya untuk indonesia? dan bagaimana solusinya?  ')
 
-df = pd.read_excel("ENERGI_INDONESIA.xlsx")
-#df
-# Membaca file Excel
 #df = pd.read_excel("ENERGI_INDONESIA.xlsx")
 
 # Tampilkan dataframe
