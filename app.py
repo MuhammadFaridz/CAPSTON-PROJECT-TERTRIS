@@ -20,9 +20,9 @@ st.write('oleh : **Muhammad Farid**')
 #st.image(image, caption='https://pixabay.com/id/photos/pembangkit-listrik-3431136/')
 #st.write('Negara indonesia menggunakan minyak, gas dan batu bara sebagai sumber utama pembangkit listrik. hal tersebut telah menjadikan polusi udara sebagai risiko utama bagi kesehatan masyarakat dan telah meningkatkan emisi karbon dioksida (CO2) terkait energi. Menurut WHO (2020), pada tahun 2016 diperkirakan 2,4 juta kematian dini disebabkan oleh polusi uara. masalah yang dihadapi saat ini adalah Peningkatan emisi Karbon Dioksida (CO2) akibat penggunaan sumber minyak, gas dan batubara untuk pembangkit listrik. dan Menipisnya sumber daya yang langka (yaitu minyak, gas dan batu bara). bagaimana prediksi konsumsi energi kedepannya untuk indonesia? dan bagaimana solusinya?  ')
 
-df = pd.read_excel("C:/Users/ASUS/Downloads/ENERGI_INDONESIA.xlsx")
+#df = pd.read_excel("C:/Users/ASUS/Downloads/ENERGI_INDONESIA.xlsx")
 #df
-
+df = pd.read_excel(os.path.join("app", "data", "ENERGI_INDONESIA.xlsx"))
 import altair as alt
 import streamlit as st
 import pandas as pd
