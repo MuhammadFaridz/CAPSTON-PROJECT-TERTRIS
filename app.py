@@ -8,7 +8,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy import stats
 from PIL import Image
-conda install -c anaconda xlrd
+pip install xlrd
 #content-start
 st.set_page_config(layout="wide")
 st.title('FORECASTING OF ENERGY CONSUMPTION AND CO2 EMISSIONS IN INDONESIA, FOR SUSTAINABLE ENERGY DECISION MAKING')
