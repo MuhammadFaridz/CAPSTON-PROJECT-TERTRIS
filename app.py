@@ -333,7 +333,7 @@ def add_image_frame(image):
 images = [
     {'path': 'WhirlpoolTurbine.jfif','header': 'Whirlpool Turbine', 'caption': 'Dapat memberi daya puluhan rumah selama 24 jam dan menghasilkan 5 kwh sampai 500 kwh'},
     {'path': 'BUNGA.jfif','header': 'Smart Flower', 'caption': 'Menggunakan sistem pelacakan matahari untuk efisiensi yang lebih tinggi'},
-    {'path': 'FloatingSolarPlant.jfif','header': 'Floating Solar Plan', 'caption': 'enggunakan air untuk mendinginkan panel'},
+    {'path': 'FloatingSolarPlant.jfif','header': 'Floating Solar Plan', 'caption': 'Menggunakan air untuk mendinginkan panel'},
     {'path': 'KineticStep.jfif','header': 'Kinetic Step', 'caption': 'Menghasilkan 7KW per langkah'}
 ]
 
