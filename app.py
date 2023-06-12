@@ -16,14 +16,8 @@ st.write('sumber data : https://yearbook.enerdata.net/ ')
 st.write('https://www.linkedin.com/in/mhd-farid/')
 st.write('oleh : **Muhammad Farid**')
 
-import os
-# Mendapatkan direktori kerja saat ini
-current_dir = os.getcwd()
 # Jalur relatif ke file "polusikota.JPG"
-image_path = os.path.join(current_dir, "capston-project-tertris/polusikota.JPG")
-# Membuka gambar menggunakan PIL
-image = Image.open(image_path)
-#image = Image.open('polusikota.jpg')
+image = Image.open("capston-project-tertris/polusikota.JPG")
 st.image(image, caption='https://pixabay.com/id/photos/pembangkit-listrik-3431136/')
 st.write('Negara indonesia menggunakan minyak, gas dan batu bara sebagai sumber utama pembangkit listrik. hal tersebut telah menjadikan polusi udara sebagai risiko utama bagi kesehatan masyarakat dan telah meningkatkan emisi karbon dioksida (CO2) terkait energi. Menurut WHO (2020), pada tahun 2016 diperkirakan 2,4 juta kematian dini disebabkan oleh polusi uara. masalah yang dihadapi saat ini adalah Peningkatan emisi Karbon Dioksida (CO2) akibat penggunaan sumber minyak, gas dan batubara untuk pembangkit listrik. dan Menipisnya sumber daya yang langka (yaitu minyak, gas dan batu bara). bagaimana prediksi konsumsi energi kedepannya untuk indonesia? dan bagaimana solusinya?  ')
 
