@@ -20,7 +20,7 @@ import os
 # Mendapatkan direktori kerja saat ini
 current_dir = os.getcwd()
 # Jalur relatif ke file "polusikota.JPG"
-image_path = os.path.join(current_dir, "C:/Users\ASUS/Desktop/CAPSTON PROJECT TERTRIS/polusikota.JPG")
+image_path = os.path.join(current_dir, "capston-project-tertris/polusikota.JPG")
 # Membuka gambar menggunakan PIL
 image = Image.open(image_path)
 #image = Image.open('polusikota.jpg')
