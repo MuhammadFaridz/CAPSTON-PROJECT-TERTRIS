@@ -12,6 +12,7 @@ from PIL import Image
 #content-start
 st.set_page_config(layout="wide")
 st.title('FORECASTING OF ENERGY CONSUMPTION AND CO2 EMISSIONS IN INDONESIA, FOR SUSTAINABLE ENERGY DECISION MAKING')
+st.write('sumber data : https://yearbook.enerdata.net/ ')
 st.write('https://www.linkedin.com/in/mhd-farid/')
 st.write('oleh : **Muhammad Farid**')
 
