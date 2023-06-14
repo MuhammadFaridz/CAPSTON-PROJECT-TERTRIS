@@ -24,7 +24,7 @@ st.write('Negara indonesia menggunakan minyak, gas dan batu bara sebagai sumber 
 df = pd.read_csv("ENERGI_INDONESIA.csv")
 
 # Tampilkan dataframe
-st.dataframe(df)
+#st.dataframe(df)
 import altair as alt
 import streamlit as st
 import pandas as pd
