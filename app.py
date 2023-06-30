@@ -28,7 +28,7 @@ df = pd.read_csv("ENERGI_INDONESIA.csv")
 import altair as alt
 import streamlit as st
 import pandas as pd
-#import pmdarima as pm
+import pmdarima as pm
 import pandas as pd
 
 
