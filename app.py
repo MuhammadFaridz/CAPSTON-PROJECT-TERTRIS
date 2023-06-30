@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
-#import matplotlib
+import matplotlib
 #matplotlib.use('Agg')
 import numpy as np
 
